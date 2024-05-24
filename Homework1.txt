@@ -1,0 +1,166 @@
+Que 1)
+Ans.
+  #include <stdio.h>
+int main() {
+    int a,b,c,d;
+    printf("Enter the first no:");
+    scanf("%d",&a);
+    printf("Enter the secound no:");
+    scanf("%d",&b);
+    c = a + b;
+    d = a * b;
+    printf("Addition is:%d\n",c);
+    printf("Substraction is:%d",d);
+}
+
+Que 2)
+Ans.#include <stdio.h>
+int main() {
+    int a,b,c,d,e,f;
+    printf("Enter the first no:");
+    scanf("%d",&a);
+    printf("Enter the secound no:");
+    scanf("%d",&b);
+    c = a * b;
+    d = a / b;
+    printf("%d*%d=%d\n",a,b,c);
+    printf("%d/%d=%d",a,b,d);
+}
+
+Que 3)
+Ans.
+#include <stdio.h>
+int main() {
+    int a,b,c;
+    printf("Enter the first no:");
+    scanf("%d",&a);
+    b= a*a;
+    c=a*a*a;
+    printf("Square is: %d\n",b);
+    printf("Cube: %d",c);
+}
+
+Que 4)
+Ans.
+ #include <stdio.h>
+#include<math.h>
+int main() {
+    int a,c;
+    float b;
+    printf("Enter the no:");
+    scanf("%d",&a);
+    b=sqrt(a);
+    printf("Square of %d is: %f\n",a,b);
+    return 0;
+}
+
+Que 5)
+Ans.
+#include <stdio.h>
+#include<math.h>
+int main() {
+    int a;
+    float area,perimeter;
+    printf("Enter the no:");
+    scanf("%d",&a);
+    area= a*a;
+    perimeter=4*a;
+    printf("Area of square:%f\n",area);
+    printf("Perimeter of square:%f",perimeter);
+    return 0;
+}
+
+Que 6)
+Ans.
+#include <stdio.h>
+#include<math.h>
+int main() {
+    int r,c,pi=3.14;
+    float area,circumeference;
+    printf("Enter the redius of circle:");
+    scanf("%d",&r);
+    area= pi * r * r;
+    circumeference=2 * pi * r;
+    printf("Area of Circle:%f\n",area);
+    printf("Circumeference of Circle:%f",circumeference);
+    return 0;
+}
+
+Que 7)
+Ans.
+#include <stdio.h>
+#include<math.h>
+int main() {
+    int r,c,circumeference,pi=3.14;
+    float area;
+    printf("Enter the redius of circle:");
+    scanf("%d",&r);
+    area= 4 * pi * r * r;
+    printf("Area of Sphere:%f\n",area);
+    return 0;
+}
+
+Que 8)
+Ans.
+#include <stdio.h>
+#include<math.h>
+int main() {
+    int r,h,pi=3.14;
+    float volume;
+    printf("Enter the redius:");
+    scanf("%d",&r);
+    printf("Enter the height:");
+    scanf("%d",&h);
+    volume= pi * (r * r) * h;
+    printf("Volume of cylinder:%f\n",volume);
+    return 0;
+}
+
+Que 9)
+Ans.
+#include <stdio.h>
+int main() {
+    int age,a;
+    printf("Enter your age in years:");
+    scanf("%d",&age);
+    a= age * 365;
+    printf("The age in days: %d",a);
+}
+
+Que 10)
+Ans.#include <stdio.h>
+#include<math.h>
+int main() {
+    float p,t,r,si,ci;
+    printf("Enter the  p,t,r:");
+    scanf("%f%f%f",&p,&t,&r);
+    si=(p*t*r)/100;
+    ci=p*(pow(1+r/100,t)-1);
+    printf("Simple interest is:%f\n",si);
+    printf("Compound interest:%f",ci);
+    return 0;
+}
+
+Que 11)
+Ans.
+
+
+Que 12)
+Ans.
+#include <stdio.h>
+#include<math.h>
+int main() {
+    int s,hour,min,sec;
+    printf("Enter the Secounds:");
+    scanf("%d",&s);
+    hour=s/3600;
+    min=(s%3600)/60;
+    sec=s%60;
+    printf("%d secounds is  equal to %d hours %d minutes and %d secounds",s,hour,min,sec);
+    return 0;
+}
+
+Que 13)
+Ans.
+
+
