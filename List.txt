@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            List Example
+        </title>
+        <link rel="icon" type="image/x-icon" href="Icon.png">
+    </head>
+    <body>
+        <h2>List Example</h2>
+        <h4><b>First Example:</b></h4>
+        <ul type="disc">
+            <li>DSA</li>
+               <ul>
+                <li>Array</li>
+                <li>Linked List</li>
+                <li>Stack</li>
+                <li>Queue</li>
+               </ul>
+            <li>Web Technologies</li>
+               <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+               </ul>
+            <li>Apptitude</li>
+            <li>Gate</li>
+            <li>Placement</li>
+        </ul>
+
+        <h4><b>Secound Example:</b></h4>
+        <ol type="I">
+            <li>Background Skills</li>
+               <ol type="A">
+                <li>Unix Command</li>
+                <li>Vim Test Editors</li>
+               </ol>
+            <li>HTML</li>
+               <ol type="A" >
+                <li>Minimal Page</li>
+                <li>Headings</li>
+                <li>Elements</li>
+                <li>Lists</li>
+                    <ol type="i" >
+                        <li>Unordered</li>
+                        <li>Ordered</li>
+                        <li>Definition</li>
+                        <li>Nested</li>
+                    </ol>
+                <li>Links</li>
+                    <ol type="A" >
+                        <li>Absolute</li>
+                        <li>Relative</li>
+                    </ol>
+                <li>Images</li>
+               </ol>
+            <li>CSS</li>
+                <ol type="A" >
+                    <li>Anatomy</li>
+                    <li>Basic Selectors</li>
+                        <ol type="i" >
+                            <li>Element</li>
+                            <li>Class</li>
+                            <li>ID</li>
+                            <li>Group</li>
+                        </ol>
+                    <li>The DOM</li>
+                    <li>Advanced Selectors</li>
+                    <li>Box Model</li>
+                </ol>
+            <li>Programming</li>
+            <ol type="A" >
+                <li>Python</li>
+                <li>Javascript</li>
+               </ol>
+            <li>Database</li>
+            <ol type="A" >
+                <li>Flat File</li>
+                <li>Relational</li>
+               </ol>
+        </ol>
+
+        <h4><b>Third Example:</b></h4>
+        <ol type="I">
+            <li>List Item 1</li>
+               <ol type="a">
+                <li>Nested item 1.1</li>
+                <li>Neated item 1.2</li>
+               </ol>
+            <li>List Item 2</li>
+               <ol type="1">
+                <li>Nested item 2.1</li>
+                <li>Nested item 2.2</li>
+                    <ul >
+                      <li>Nested item 2.2.1</li>
+                      <li>Nested item 2.2.2</li>
+                         <ul type="Box">
+                            <li>Nested item 2.2.2.1</li>
+                            <li>Nested item 2.2.2.2</li>
+                         </ul>
+                      <li>Nested item 2.2.3</li>
+                    </ul>
+                <li>Nested item 2.3</li>
+               </ol>
+            <li>List Item 3</li>
+                    <ul type="disc" >
+                        <li>Nested item 3.1</li>
+                        <li>Nested item 3.2</li>
+                        <li>Nested item 3.2</li>
+                    </ul>           
+        </ol>
+    </body>
+</html>
